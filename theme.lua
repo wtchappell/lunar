@@ -12,7 +12,7 @@ theme.wallpaper_cmd = { "awsetbg /usr/share/awesome/themes/lunar/lunar-backgroun
 -- }}}
 
 -- {{{ Styles
-theme.font      = "terminus 10"
+theme.font      = "terminus 8"
 
 -- {{{ Colors
 theme.fg_normal = "#DCDCCC"
