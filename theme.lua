@@ -15,16 +15,16 @@ theme.wallpaper_cmd = { "awsetbg /usr/share/awesome/themes/lunar/lunar-backgroun
 theme.font      = "terminus 8"
 
 -- {{{ Colors
-theme.fg_normal = "#DCDCCC"
-theme.fg_focus  = "#F0DFAF"
-theme.fg_urgent = "#CC9393"
+theme.fg_normal = "darkorange"
+theme.fg_focus  = "orange"
+theme.fg_urgent = "darkred"
 theme.bg_normal = "black"
 theme.bg_focus  = "#333333"
-theme.bg_urgent = "darkred"
+theme.bg_urgent = "#333333"
 -- }}}
 
 -- {{{ Borders
-theme.border_width  = "2"
+theme.border_width  = "1"
 theme.border_normal = "#3F3F3F"
 theme.border_focus  = "#6F6F6F"
 theme.border_marked = "#CC9393"
@@ -65,7 +65,7 @@ theme.mouse_finder_color = "#CC9393"
 -- Variables set for theming the menu:
 -- menu_[bg|fg]_[normal|focus]
 -- menu_[border_color|border_width]
-theme.menu_height = "15"
+theme.menu_height = "10"
 theme.menu_width  = "100"
 -- }}}
 
