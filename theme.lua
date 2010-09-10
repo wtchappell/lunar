@@ -15,10 +15,10 @@ theme.wallpaper_cmd = { "awsetbg /usr/share/awesome/themes/lunar/lunar-backgroun
 theme.font      = "terminus 8"
 
 -- {{{ Colors
-theme.fg_normal = "darkorange"
-theme.fg_focus  = "orange"
-theme.fg_urgent = "darkred"
-theme.bg_normal = "black"
+theme.fg_normal = "#FF8C00"
+theme.fg_focus  = "#F88017"
+theme.fg_urgent = "#8B0000"
+theme.bg_normal = "#000000"
 theme.bg_focus  = "#333333"
 theme.bg_urgent = "#333333"
 -- }}}
