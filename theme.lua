@@ -8,7 +8,7 @@
 
 -- {{{ Main
 theme = {}
-theme.wallpaper_cmd = { "awsetbg src/lunar/lunar-background.png" }
+theme.wallpaper = "src/lunar/lunar-background.png"
 -- }}}
 
 -- {{{ Styles
