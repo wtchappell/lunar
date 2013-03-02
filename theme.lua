@@ -6,9 +6,15 @@
 -- Alternative icon sets and widget icons:
 --  * http://awesome.naquadah.org/wiki/Nice_Icons
 
+local util = require("awful.util")
+
+-- {{{ Variables
+theme_dir = util.getdir("config") .. "/themes/lunar/"
+-- }}}
+
 -- {{{ Main
 theme = {}
-theme.wallpaper = "src/lunar/lunar-background.png"
+theme.wallpaper = theme_dir .. "lunar-background.png"
 -- }}}
 
 -- {{{ Styles
@@ -71,55 +77,55 @@ theme.menu_width  = "100"
 
 -- {{{ Icons
 -- {{{ Taglist
-theme.taglist_squares_sel   = "src/lunar/taglist/squarefz.png"
-theme.taglist_squares_unsel = "src/lunar/taglist/squarez.png"
+theme.taglist_squares_sel   = theme_dir .. "taglist/squarefz.png"
+theme.taglist_squares_unsel = theme_dir .. "taglist/squarez.png"
 --theme.taglist_squares_resize = "false"
 -- }}}
 
 -- {{{ Misc
-theme.awesome_icon           = "src/lunar/awesome-icon.png"
-theme.menu_submenu_icon      = "src/default/submenu.png"
-theme.tasklist_floating_icon = "src/default/tasklist/floatingw.png"
+theme.awesome_icon           = theme_dir .. "awesome-icon.png"
+theme.menu_submenu_icon      = "/usr/share/awesome/themes/default/submenu.png"
+theme.tasklist_floating_icon = "/usr/share/awesome/themes/default/tasklist/floatingw.png"
 -- }}}
 
 -- {{{ Layout
-theme.layout_tile       = "src/lunar/layouts/tile.png"
-theme.layout_tileleft   = "src/lunar/layouts/tileleft.png"
-theme.layout_tilebottom = "src/lunar/layouts/tilebottom.png"
-theme.layout_tiletop    = "src/lunar/layouts/tiletop.png"
-theme.layout_fairv      = "src/lunar/layouts/fairv.png"
-theme.layout_fairh      = "src/lunar/layouts/fairh.png"
-theme.layout_spiral     = "src/lunar/layouts/spiral.png"
-theme.layout_dwindle    = "src/lunar/layouts/dwindle.png"
-theme.layout_max        = "src/lunar/layouts/max.png"
-theme.layout_fullscreen = "src/lunar/layouts/fullscreen.png"
-theme.layout_magnifier  = "src/lunar/layouts/magnifier.png"
-theme.layout_floating   = "src/lunar/layouts/floating.png"
+theme.layout_tile       = theme_dir .. "layouts/tile.png"
+theme.layout_tileleft   = theme_dir .. "layouts/tileleft.png"
+theme.layout_tilebottom = theme_dir .. "layouts/tilebottom.png"
+theme.layout_tiletop    = theme_dir .. "layouts/tiletop.png"
+theme.layout_fairv      = theme_dir .. "layouts/fairv.png"
+theme.layout_fairh      = theme_dir .. "layouts/fairh.png"
+theme.layout_spiral     = theme_dir .. "layouts/spiral.png"
+theme.layout_dwindle    = theme_dir .. "layouts/dwindle.png"
+theme.layout_max        = theme_dir .. "layouts/max.png"
+theme.layout_fullscreen = theme_dir .. "layouts/fullscreen.png"
+theme.layout_magnifier  = theme_dir .. "layouts/magnifier.png"
+theme.layout_floating   = theme_dir .. "layouts/floating.png"
 -- }}}
 
 -- {{{ Titlebar
-theme.titlebar_close_button_focus  = "src/lunar/titlebar/close_focus.png"
-theme.titlebar_close_button_normal = "src/lunar/titlebar/close_normal.png"
+theme.titlebar_close_button_focus  = theme_dir .. "titlebar/close_focus.png"
+theme.titlebar_close_button_normal = theme_dir .. "titlebar/close_normal.png"
 
-theme.titlebar_ontop_button_focus_active  = "src/lunar/titlebar/ontop_focus_active.png"
-theme.titlebar_ontop_button_normal_active = "src/lunar/titlebar/ontop_normal_active.png"
-theme.titlebar_ontop_button_focus_inactive  = "src/lunar/titlebar/ontop_focus_inactive.png"
-theme.titlebar_ontop_button_normal_inactive = "src/lunar/titlebar/ontop_normal_inactive.png"
+theme.titlebar_ontop_button_focus_active  = theme_dir .. "titlebar/ontop_focus_active.png"
+theme.titlebar_ontop_button_normal_active = theme_dir .. "titlebar/ontop_normal_active.png"
+theme.titlebar_ontop_button_focus_inactive  = theme_dir .. "titlebar/ontop_focus_inactive.png"
+theme.titlebar_ontop_button_normal_inactive = theme_dir .. "titlebar/ontop_normal_inactive.png"
 
-theme.titlebar_sticky_button_focus_active  = "src/lunar/titlebar/sticky_focus_active.png"
-theme.titlebar_sticky_button_normal_active = "src/lunar/titlebar/sticky_normal_active.png"
-theme.titlebar_sticky_button_focus_inactive  = "src/lunar/titlebar/sticky_focus_inactive.png"
-theme.titlebar_sticky_button_normal_inactive = "src/lunar/titlebar/sticky_normal_inactive.png"
+theme.titlebar_sticky_button_focus_active  = theme_dir .. "titlebar/sticky_focus_active.png"
+theme.titlebar_sticky_button_normal_active = theme_dir .. "titlebar/sticky_normal_active.png"
+theme.titlebar_sticky_button_focus_inactive  = theme_dir .. "titlebar/sticky_focus_inactive.png"
+theme.titlebar_sticky_button_normal_inactive = theme_dir .. "titlebar/sticky_normal_inactive.png"
 
-theme.titlebar_floating_button_focus_active  = "src/lunar/titlebar/floating_focus_active.png"
-theme.titlebar_floating_button_normal_active = "src/lunar/titlebar/floating_normal_active.png"
-theme.titlebar_floating_button_focus_inactive  = "src/lunar/titlebar/floating_focus_inactive.png"
-theme.titlebar_floating_button_normal_inactive = "src/lunar/titlebar/floating_normal_inactive.png"
+theme.titlebar_floating_button_focus_active  = theme_dir .. "titlebar/floating_focus_active.png"
+theme.titlebar_floating_button_normal_active = theme_dir .. "titlebar/floating_normal_active.png"
+theme.titlebar_floating_button_focus_inactive  = theme_dir .. "titlebar/floating_focus_inactive.png"
+theme.titlebar_floating_button_normal_inactive = theme_dir .. "titlebar/floating_normal_inactive.png"
 
-theme.titlebar_maximized_button_focus_active  = "src/lunar/titlebar/maximized_focus_active.png"
-theme.titlebar_maximized_button_normal_active = "src/lunar/titlebar/maximized_normal_active.png"
-theme.titlebar_maximized_button_focus_inactive  = "src/lunar/titlebar/maximized_focus_inactive.png"
-theme.titlebar_maximized_button_normal_inactive = "src/lunar/titlebar/maximized_normal_inactive.png"
+theme.titlebar_maximized_button_focus_active  = theme_dir .. "titlebar/maximized_focus_active.png"
+theme.titlebar_maximized_button_normal_active = theme_dir .. "titlebar/maximized_normal_active.png"
+theme.titlebar_maximized_button_focus_inactive  = theme_dir .. "titlebar/maximized_focus_inactive.png"
+theme.titlebar_maximized_button_normal_inactive = theme_dir .. "titlebar/maximized_normal_inactive.png"
 -- }}}
 -- }}}
 
